@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --brand-navy: #060a30;
+  --brand-navy-mid: #0a0f4e;
+  --brand-blue: #1c66eb;
+  --brand-blue-bright: #336dfd;
+  --brand-gold: #facc15;
+  --india-saffron: #ff9933;
+  --india-green: #138808;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: clip;
+}
+
+/* Hide scrollbars for horizontal mobile filter strips while keeping touch scroll */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle industrial engineering grid background */
+.bg-industrial-grid {
+  background-image:
+    linear-gradient(to right, rgba(28, 102, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(28, 102, 235, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-hero-grid {
+  background-image:
+    linear-gradient(to right, rgba(51, 109, 253, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(51, 109, 253, 0.12) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* India tricolor subtle accent stripe */
+.tricolor-stripe {
+  background: linear-gradient(
+    90deg,
+    #ff9933 0%,
+    #ff9933 33.33%,
+    #ffffff 33.33%,
+    #ffffff 66.66%,
+    #138808 66.66%,
+    #138808 100%
+  );
+}
