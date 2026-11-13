@@ -21,7 +21,13 @@ export function buildProductWhatsAppUrl(params: {
   whatsappNumber?: string | null;
   siteUrl?: string;
 }): string {
-  const baseUrl = (params.siteUrl || SITE_URL).replace(/\/+$/, "");
+  let baseUrl = (params.siteUrl || SITE_URL).replace(/\/+$/, "");
+  if (typeof window !== "undefined" && window.location?.origin) {
+    const locOrigin = window.location.origin.replace(/\/+$/, "");
+    if (!locOrigin.includes("localhost") && !locOrigin.includes("127.0.0.1")) {
+      baseUrl = locOrigin;
+    }
+  }
   const productUrl = `${baseUrl}/products/${params.slug}`;
   const rating = formatPowerRating(params.powerKw, params.powerHp);
   const message = `Hello Q-JEN, I am interested in the ${params.name} (${rating}). Product link: ${productUrl}. Please share price and availability.`;
