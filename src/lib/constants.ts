@@ -10,7 +10,7 @@ export const BRAND = {
 } as const;
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://q-jen.in"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://q-jen.com"
 ).replace(/\/+$/, "");
 
 export const DEFAULT_WHATSAPP_NUMBER = (
