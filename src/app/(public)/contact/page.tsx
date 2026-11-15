@@ -8,9 +8,9 @@ import ContactWhatsAppForm from "@/components/public/ContactWhatsAppForm";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Contact Q-JEN | Direct VFD Manufacturer Enquiry (Madurai, India)",
+  title: "Contact Q-JEN Manufacturer Desk",
   description:
-    "Contact Jerly Electronics and Cooling Services in Madurai, Tamil Nadu for Q-JEN Variable Frequency Drive pricing, availability, and technical support via WhatsApp.",
+    "Contact Jerly Electronics in Madurai, Tamil Nadu for Q-JEN Variable Frequency Drive pricing, availability, and engineering support via WhatsApp.",
   alternates: {
     canonical: `${SITE_URL}/contact`,
   },

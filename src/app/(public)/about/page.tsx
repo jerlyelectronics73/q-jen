@@ -20,9 +20,9 @@ import { buildGeneralEnquiryWhatsAppUrl } from "@/lib/whatsapp";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "About Q-JEN & Jerly Electronics | Madurai VFD Manufacturer",
+  title: "About Jerly Electronics & Q-JEN",
   description:
-    "Learn about Jerly Electronics and Cooling Services in Madurai, Tamil Nadu — QCI Verified Manufacturer, GeM OEM VFD Seller, and trademark owner of Q-JEN (No. 5495858).",
+    "Learn about Jerly Electronics in Madurai — QCI Verified Manufacturer, GeM OEM VFD Seller, and trademark owner of Q-JEN India (No. 5495858).",
   alternates: {
     canonical: `${SITE_URL}/about`,
   },

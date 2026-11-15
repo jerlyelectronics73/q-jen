@@ -10,9 +10,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "All Q-JEN VFD Models (15kW to 220kW) | Made in India AC Drives",
+  title: "All Q-JEN VFD Models (15kW to 220kW)",
   description:
-    "Explore the complete Q-JEN Variable Frequency Drive catalog from 15kW / 20HP to 220kW / 300HP. Designed and manufactured in Madurai, Tamil Nadu, India.",
+    "Explore the complete Q-JEN Variable Frequency Drive catalog from 15kW / 20HP to 220kW / 300HP. Designed and manufactured in Madurai, India.",
   alternates: {
     canonical: `${SITE_URL}/products`,
   },

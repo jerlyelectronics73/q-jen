@@ -47,9 +47,11 @@ export const revalidate = 60;
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Q-JEN | Made in India Variable Frequency Drives (15kW – 220kW)",
+    title: {
+      absolute: "Q-JEN | Made in India Variable Frequency Drives (VFD)",
+    },
     description:
-      "Shop Q-JEN Variable Frequency Drives (15kW / 20HP to 220kW / 300HP) designed and manufactured in Madurai, Tamil Nadu by Jerly Electronics and Cooling Services. QCI Verified Manufacturer & GeM OEM Seller.",
+      "Buy Made-in-India Q-JEN Variable Frequency Drives (15kW–220kW) from Jerly Electronics, Madurai. QCI verified & GeM registered OEM manufacturer.",
     alternates: {
       canonical: SITE_URL,
     },

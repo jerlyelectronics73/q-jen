@@ -35,11 +35,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Q-JEN | Made in India Variable Frequency Drives (15kW – 220kW)",
-    template: "%s | Q-JEN India VFDs",
+    default: "Q-JEN | Made in India Variable Frequency Drives (VFD)",
+    template: "%s | Q-JEN India",
   },
   description:
-    "Q-JEN Variable Frequency Drives (AC Drives) from 15kW / 20HP to 220kW / 300HP. Designed and manufactured in Madurai, Tamil Nadu by Jerly Electronics and Cooling Services — QCI Verified Manufacturer & GeM OEM Registered Seller.",
+    "Buy Made-in-India Q-JEN Variable Frequency Drives (15kW–220kW) from Jerly Electronics, Madurai. QCI verified & GeM registered OEM manufacturer.",
   keywords: [
     "VFD",
     "variable frequency drive",
@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: SITE_URL,
     siteName: "Q-JEN India",
-    title: "Q-JEN | Made in India Variable Frequency Drives (15kW – 220kW)",
+    title: "Q-JEN | Made in India Variable Frequency Drives (VFD)",
     description:
-      "Industrial Variable Frequency Drives designed and manufactured in Madurai, Tamil Nadu, India. Buy direct via WhatsApp.",
+      "Buy Made-in-India Q-JEN Variable Frequency Drives (15kW–220kW) from Jerly Electronics, Madurai. QCI verified & GeM registered OEM manufacturer.",
     images: [
       {
         url: "/og-image.png",
@@ -74,9 +74,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Q-JEN | Made in India Variable Frequency Drives",
+    title: "Q-JEN | Made in India Variable Frequency Drives (VFD)",
     description:
-      "Industrial VFDs from 15kW to 220kW designed & manufactured in Madurai, India by Jerly Electronics and Cooling Services.",
+      "Buy Made-in-India Q-JEN Variable Frequency Drives (15kW–220kW) from Jerly Electronics, Madurai. QCI verified & GeM registered OEM manufacturer.",
     images: ["/og-image.png"],
   },
   icons: {
